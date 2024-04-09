@@ -26,14 +26,14 @@ const ACTIONS: Array<NavigationItem> = [
 		type: NavigationItemType.LINK,
 		href: '/projects',
 		icon: <Icon className="mr-3" icon="feather:copy" />,
-		text: 'Projects',
+		text: 'Servicios',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
-		icon: <Icon className="mr-3" icon="feather:github" />,
-		text: 'GitHub',
+		href: 'https://www.linkedin.com/company/tri%C3%A1ngulo-consultores/',
+		icon: <Icon className="mr-3" icon="feather:linkedin" />,
+		text: 'LinkedIn',
 	},
 ];
 
