@@ -57,7 +57,7 @@ export default function HomePage(): JSX.Element {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						<span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
+						<span className="inline-block origin-70 hover:(animate-wave)">💡</span>{' '}
 						<br className="hidden sm:block" />Triángulo{' '}
 						<Pill.Standard className="mt-4">Consultores</Pill.Standard>
 					</Animate>
