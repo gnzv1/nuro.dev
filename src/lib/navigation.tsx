@@ -12,7 +12,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:home',
-			text: 'Home',
+			text: 'Inicio',
 			href: '/',
 		},
 		{
@@ -24,19 +24,19 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:copy',
-			text: 'Projects',
+			text: 'Servicios',
 			href: '/projects',
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
-			text: 'Timeline',
+			text: 'Nosotros',
 			href: '/timeline',
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:link',
-			text: 'Referrals',
+			text: 'Links',
 			href: '/referrals',
 		},
 	],

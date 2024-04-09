@@ -8,8 +8,8 @@ export function useSeoProps(
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
 
-	const title = 'Triángulo - Consultoría Organizacional';
-	const description = "¡Bienvenido a Triángulo Consultores 👋 Hunting, R&S y Consultoría";
+	const title = "Triangulo - Consultoria Organizacional";
+	const description = "¡Bienvenido a Triangulo Consultores 👋 Hunting, R&S y Consultoria";
 
 	return {
 		title,
