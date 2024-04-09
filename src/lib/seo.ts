@@ -18,7 +18,7 @@ export function useSeoProps(
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
+			site_name: 'Triángulo Consultores',
 			url: `https://nuro.dev/${router.asPath}`,
 			type: 'website',
 			images: [
