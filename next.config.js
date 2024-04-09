@@ -13,6 +13,7 @@ const ContentSecurityPolicy = `
   worker-src 'self' 'unsafe-inline' blob:;
 `;
 
+
 /**
  * @type {import('next').NextConfig}
  */
@@ -34,6 +35,9 @@ const config = {
 			// Unsplash
 			'source.unsplash.com',
 			'images.unsplash.com',
+			
+			//localhost
+			'localhost',
 		],
 	},
 	// Inspired by: https://github.com/leerob/leerob.io/blob/main/next.config.js#L44-L81
